@@ -90,3 +90,34 @@ button{
     display: inline-flex;
     justify-content: space-around;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+
+    body{
+        
+    }
+    .container{
+        width: 250px;
+        height: 280px;
+        font-size: 12px;
+        top: 0;
+    }
+
+    h1{
+        font-size: x-large;
+        top: 10%;
+    }
+
+    .searchInput{
+        width: 200px;
+    }
+
+    .searchCity{
+        width: 150px;
+        height: 130px;
+    }
+
+    button{
+        width: 200px;
+    }
+}
